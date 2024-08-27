@@ -1,8 +1,11 @@
 
 void setup(){
-  //some of your code here
+  size(800, 800);
 }
 void draw(){
-  //more of your code here
+  fill(229, 199, 49);
+  triangle(25, 150, 55,150, 45,200);
+  noStroke();
+  ellipse(225, 125, 250, 175);
 }
 
