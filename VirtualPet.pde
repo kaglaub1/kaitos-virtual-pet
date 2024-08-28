@@ -1,9 +1,4 @@
-
 void setup(){
-  size(800, 800);
-}
-void draw(){
-  void setup(){
   size(800, 800);
 }
 void draw(){
@@ -59,4 +54,3 @@ void draw(){
   line(187, 97, 225, 83);
   
 }
-
