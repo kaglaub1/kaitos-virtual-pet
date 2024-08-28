@@ -3,6 +3,10 @@ void setup(){
   size(800, 800);
 }
 void draw(){
+  void setup(){
+  size(800, 800);
+}
+void draw(){
   background(204);
   text(mouseX, mouseX, 780, 0);
   text(mouseY, 780, mouseY, 0);
@@ -17,9 +21,18 @@ void draw(){
   //sharp beak thing
   triangle(26, 148, 55, 146, 45,185);
   noStroke();
-  fill(240, 240, 240);
+  fill(230, 230, 230);
   //neck
-  arc(280, 290, 220, 480, PI, TWO_PI);
+  arc(280, 260, 220, 420, PI, TWO_PI);
+  //necktriangles
+  triangle(170, 260, 197.5, 260, 183.75, 308);
+  triangle(197.5, 260, 225, 260, 211.25, 308);
+  triangle(225, 260, 252.5, 260, 238.75, 308);
+  triangle(252.5, 260, 280, 260, 266.25, 308);
+  triangle(170+110, 260, 197.5+110, 260, 183.75+110, 308);
+  triangle(197.5+110, 260, 225+110, 260, 211.25+110, 308);
+  triangle(225+110, 260, 252.5+110, 260, 238.75+110, 308);
+  triangle(252.5+110, 260, 280+110, 260, 266.25+110, 308);
   //head
   ellipse(225, 115, 250, 150);
   fill(229, 199, 49);
@@ -44,5 +57,6 @@ void draw(){
   stroke(60, 60, 60);
   strokeWeight(6);
   line(187, 97, 225, 83);
+  
 }
 
