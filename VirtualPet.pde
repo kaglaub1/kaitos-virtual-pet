@@ -4,9 +4,9 @@ void setup(){
 void draw(){
   //bg and mouse coords
   background(204);
-  fill(0, 0, 0);
-  text(mouseX, mouseX, 790, 0);
-  text(mouseY, 770, mouseY, 0);
+  //fill(0, 0, 0);
+  //text(mouseX, mouseX, 790, 0);
+  //text(mouseY, 770, mouseY, 0);
   
   
   //left leg
